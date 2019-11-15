@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rM5-wE-7rv">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TrackIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDj-QW-V6T">
+                                <rect key="frame" x="0.0" y="686" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.94440073022902282" green="0.976582328680203" blue="0.1301416108501971" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="6xH-Xk-j94"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <state key="normal" title="Get Started">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ALk-dl-72g" kind="push" id="JaX-vd-TSi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Follow each step of your luggage" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s43-lR-T5b">
+                                <rect key="frame" x="16" y="50" width="382" height="67"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P9T-Tu-jWt">
+                                <rect key="frame" x="16" y="529" width="382" height="149"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="149" id="yJb-G3-YJd"/>
+                                </constraints>
+                                <string key="text">TrackIT Provides the transparency and visibility customers need to fly with confidence and helps improve the perception of baggage handling at both the airline and airport level.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="0cV-4J-1IL">
+                                <rect key="frame" x="107" y="157" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="BSV-le-fc2"/>
+                                    <constraint firstAttribute="height" constant="200" id="mOr-Q6-Rtx"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P9T-Tu-jWt" secondAttribute="trailing" constant="16" id="1we-bt-5VQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pDj-QW-V6T" secondAttribute="trailing" id="ADB-K5-8S8"/>
+                            <constraint firstItem="pDj-QW-V6T" firstAttribute="top" secondItem="P9T-Tu-jWt" secondAttribute="bottom" constant="8" id="Pbz-vb-otk"/>
+                            <constraint firstItem="s43-lR-T5b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Sgz-zG-0QQ"/>
+                            <constraint firstItem="0cV-4J-1IL" firstAttribute="top" secondItem="s43-lR-T5b" secondAttribute="bottom" constant="40" id="UK2-S2-MT5"/>
+                            <constraint firstItem="s43-lR-T5b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="do2-tw-J05"/>
+                            <constraint firstItem="pDj-QW-V6T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kUA-yH-Nfp"/>
+                            <constraint firstItem="P9T-Tu-jWt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="m0k-oq-BBC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s43-lR-T5b" secondAttribute="trailing" constant="16" id="ny0-Df-6Bv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pDj-QW-V6T" secondAttribute="bottom" id="ol5-xL-Nsc"/>
+                            <constraint firstItem="0cV-4J-1IL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="uLe-Fy-i0V"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="l1h-FN-L9A"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1046.376811594203" y="132.06521739130434"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="piL-aq-FYU">
+            <objects>
+                <viewController id="ALk-dl-72g" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kEa-X4-iZK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Provide the costumer ID to track your luggages :" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXO-zl-eNh">
+                                <rect key="frame" x="20" y="90" width="374" height="67"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d73-eh-Sdh">
+                                <rect key="frame" x="20" y="200" width="374" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="64c-2q-dsw"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9s-TN-WWg">
+                                <rect key="frame" x="137" y="290" width="140" height="40"/>
+                                <color key="backgroundColor" red="0.94440073020000004" green="0.97658232869999995" blue="0.13014161090000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="M2A-tw-RSG"/>
+                                    <constraint firstAttribute="width" constant="140" id="oJO-zB-qrr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <state key="normal" title="Track">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="t9s-TN-WWg" firstAttribute="leading" secondItem="r5v-Dz-Lnr" secondAttribute="leading" constant="137" id="5Jv-Ej-BiK"/>
+                            <constraint firstItem="r5v-Dz-Lnr" firstAttribute="trailing" secondItem="d73-eh-Sdh" secondAttribute="trailing" constant="20" id="DAW-UF-gIy"/>
+                            <constraint firstItem="d73-eh-Sdh" firstAttribute="top" secondItem="tXO-zl-eNh" secondAttribute="bottom" constant="43" id="JGw-vl-y6e"/>
+                            <constraint firstItem="tXO-zl-eNh" firstAttribute="leading" secondItem="r5v-Dz-Lnr" secondAttribute="leading" constant="20" id="Oh7-EC-LfQ"/>
+                            <constraint firstItem="r5v-Dz-Lnr" firstAttribute="trailing" secondItem="tXO-zl-eNh" secondAttribute="trailing" constant="20" id="gfN-z7-rW7"/>
+                            <constraint firstItem="tXO-zl-eNh" firstAttribute="top" secondItem="r5v-Dz-Lnr" secondAttribute="top" constant="70" id="hwS-0c-Kt4"/>
+                            <constraint firstItem="t9s-TN-WWg" firstAttribute="top" secondItem="d73-eh-Sdh" secondAttribute="bottom" constant="40" id="l2i-GC-Scb"/>
+                            <constraint firstItem="d73-eh-Sdh" firstAttribute="leading" secondItem="r5v-Dz-Lnr" secondAttribute="leading" constant="20" id="xqH-mK-vPz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="r5v-Dz-Lnr"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2s9-pP-Ovj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ddk-UF-ypP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1873.913043478261" y="132.88043478260872"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3Vg-Ff-kds">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="rM5-wE-7rv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xis-GM-ySY">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="MYA-uS-pfW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pnc-fL-jd2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.13043478260872" y="132.06521739130434"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="640" height="640"/>
+    </resources>
+</document>
