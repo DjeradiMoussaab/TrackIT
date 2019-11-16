@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042D104F237F522300B88362 /* LuggagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D104E237F522300B88362 /* LuggagesController.swift */; };
+		042D1053237F545700B88362 /* Luggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D1052237F545700B88362 /* Luggage.swift */; };
+		042D1056237F60DF00B88362 /* BorderRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D1055237F60DF00B88362 /* BorderRadiusView.swift */; };
+		042D1058237FFF5800B88362 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D1057237FFF5800B88362 /* Event.swift */; };
+		042D105A2380138C00B88362 /* EventsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D10592380138C00B88362 /* EventsController.swift */; };
+		042D105C23801AC200B88362 /* BorderRadiusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D105B23801AC200B88362 /* BorderRadiusButton.swift */; };
 		044E6171237F3EB60061A071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6170237F3EB60061A071 /* AppDelegate.swift */; };
 		044E6173237F3EB60061A071 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6172237F3EB60061A071 /* ViewController.swift */; };
 		044E6176237F3EB60061A071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044E6174237F3EB60061A071 /* Main.storyboard */; };
@@ -15,9 +21,18 @@
 		044E617E237F3EB70061A071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044E617C237F3EB70061A071 /* LaunchScreen.storyboard */; };
 		044E6188237F46D70061A071 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6187237F46D70061A071 /* API.swift */; };
 		044E618A237F47A40061A071 /* TrackingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6189237F47A40061A071 /* TrackingController.swift */; };
+		044E618D237F4B9F0061A071 /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E618C237F4B9F0061A071 /* BaseURL.swift */; };
+		FC8FE35EB0A15E512877F133 /* Pods_TrackIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04184349A582D9BACF36740A /* Pods_TrackIT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04184349A582D9BACF36740A /* Pods_TrackIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		042D104E237F522300B88362 /* LuggagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuggagesController.swift; sourceTree = "<group>"; };
+		042D1052237F545700B88362 /* Luggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luggage.swift; sourceTree = "<group>"; };
+		042D1055237F60DF00B88362 /* BorderRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderRadiusView.swift; sourceTree = "<group>"; };
+		042D1057237FFF5800B88362 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		042D10592380138C00B88362 /* EventsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsController.swift; sourceTree = "<group>"; };
+		042D105B23801AC200B88362 /* BorderRadiusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderRadiusButton.swift; sourceTree = "<group>"; };
 		044E616D237F3EB60061A071 /* TrackIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044E6170237F3EB60061A071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044E6172237F3EB60061A071 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +43,9 @@
 		044E617F237F3EB70061A071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044E6187237F46D70061A071 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		044E6189237F47A40061A071 /* TrackingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingController.swift; sourceTree = "<group>"; };
+		044E618C237F4B9F0061A071 /* BaseURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		0EFA55BBF612B069EBCD4580 /* Pods-TrackIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackIT.release.xcconfig"; path = "Target Support Files/Pods-TrackIT/Pods-TrackIT.release.xcconfig"; sourceTree = "<group>"; };
+		77EBFF771023DD90DED0D4B6 /* Pods-TrackIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackIT.debug.xcconfig"; path = "Target Support Files/Pods-TrackIT/Pods-TrackIT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +53,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8FE35EB0A15E512877F133 /* Pods_TrackIT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042D1051237F543D00B88362 /* Modeles */ = {
+			isa = PBXGroup;
+			children = (
+				042D1052237F545700B88362 /* Luggage.swift */,
+				042D1057237FFF5800B88362 /* Event.swift */,
+			);
+			path = Modeles;
+			sourceTree = "<group>";
+		};
+		042D1054237F60C700B88362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				042D1055237F60DF00B88362 /* BorderRadiusView.swift */,
+				042D105B23801AC200B88362 /* BorderRadiusButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		044E6164237F3EB60061A071 = {
 			isa = PBXGroup;
 			children = (
 				044E616F237F3EB60061A071 /* TrackIT */,
 				044E616E237F3EB60061A071 /* Products */,
+				4C507C9D22765AA80BC55583 /* Pods */,
+				A83DE1517F1726B56EA43CC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +99,12 @@
 		044E616F237F3EB60061A071 /* TrackIT */ = {
 			isa = PBXGroup;
 			children = (
+				042D1054237F60C700B88362 /* Views */,
+				042D1051237F543D00B88362 /* Modeles */,
+				044E618B237F4B7E0061A071 /* Config */,
 				044E6186237F43680061A071 /* Services */,
 				044E6185237F435F0061A071 /* Controllers */,
 				044E6170237F3EB60061A071 /* AppDelegate.swift */,
-				044E6172237F3EB60061A071 /* ViewController.swift */,
 				044E6174237F3EB60061A071 /* Main.storyboard */,
 				044E617A237F3EB70061A071 /* Assets.xcassets */,
 				044E617C237F3EB70061A071 /* LaunchScreen.storyboard */,
@@ -76,7 +117,10 @@
 		044E6185237F435F0061A071 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				044E6172237F3EB60061A071 /* ViewController.swift */,
 				044E6189237F47A40061A071 /* TrackingController.swift */,
+				042D104E237F522300B88362 /* LuggagesController.swift */,
+				042D10592380138C00B88362 /* EventsController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -89,6 +133,31 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		044E618B237F4B7E0061A071 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				044E618C237F4B9F0061A071 /* BaseURL.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		4C507C9D22765AA80BC55583 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77EBFF771023DD90DED0D4B6 /* Pods-TrackIT.debug.xcconfig */,
+				0EFA55BBF612B069EBCD4580 /* Pods-TrackIT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A83DE1517F1726B56EA43CC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04184349A582D9BACF36740A /* Pods_TrackIT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044E6182237F3EB70061A071 /* Build configuration list for PBXNativeTarget "TrackIT" */;
 			buildPhases = (
+				A288902BE1105AEDC9155544 /* [CP] Check Pods Manifest.lock */,
 				044E6169237F3EB60061A071 /* Sources */,
 				044E616A237F3EB60061A071 /* Frameworks */,
 				044E616B237F3EB60061A071 /* Resources */,
+				56C24D03D4459F45B7F4968A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,13 +226,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56C24D03D4459F45B7F4968A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrackIT/Pods-TrackIT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrackIT/Pods-TrackIT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrackIT/Pods-TrackIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A288902BE1105AEDC9155544 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrackIT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		044E6169237F3EB60061A071 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042D1056237F60DF00B88362 /* BorderRadiusView.swift in Sources */,
 				044E618A237F47A40061A071 /* TrackingController.swift in Sources */,
 				044E6179237F3EB60061A071 /* TrackIT.xcdatamodeld in Sources */,
+				042D104F237F522300B88362 /* LuggagesController.swift in Sources */,
+				042D1058237FFF5800B88362 /* Event.swift in Sources */,
+				042D105C23801AC200B88362 /* BorderRadiusButton.swift in Sources */,
+				042D105A2380138C00B88362 /* EventsController.swift in Sources */,
+				044E618D237F4B9F0061A071 /* BaseURL.swift in Sources */,
+				042D1053237F545700B88362 /* Luggage.swift in Sources */,
 				044E6173237F3EB60061A071 /* ViewController.swift in Sources */,
 				044E6188237F46D70061A071 /* API.swift in Sources */,
 				044E6171237F3EB60061A071 /* AppDelegate.swift in Sources */,
@@ -308,16 +428,18 @@
 		};
 		044E6183237F3EB70061A071 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77EBFF771023DD90DED0D4B6 /* Pods-TrackIT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4X85BQQX8A;
 				INFOPLIST_FILE = TrackIT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TrackIT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrackIT2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,16 +448,18 @@
 		};
 		044E6184237F3EB70061A071 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFA55BBF612B069EBCD4580 /* Pods-TrackIT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4X85BQQX8A;
 				INFOPLIST_FILE = TrackIT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TrackIT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrackIT2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
