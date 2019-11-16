@@ -13,6 +13,13 @@
 		042D1058237FFF5800B88362 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D1057237FFF5800B88362 /* Event.swift */; };
 		042D105A2380138C00B88362 /* EventsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D10592380138C00B88362 /* EventsController.swift */; };
 		042D105C23801AC200B88362 /* BorderRadiusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D105B23801AC200B88362 /* BorderRadiusButton.swift */; };
+		042D105E2380430F00B88362 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D105D2380430F00B88362 /* Customer.swift */; };
+		042D106023806AFA00B88362 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D105F23806AFA00B88362 /* QRScannerView.swift */; };
+		042D106223806E3400B88362 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D106123806E3400B88362 /* QRScannerViewController.swift */; };
+		042D10642380807F00B88362 /* ArtWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D10632380807F00B88362 /* ArtWorkView.swift */; };
+		042D10672380809D00B88362 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D10652380809D00B88362 /* Artwork.swift */; };
+		042D10682380809D00B88362 /* AirportLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D10662380809D00B88362 /* AirportLocation.swift */; };
+		042D106A2380812400B88362 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D10692380812400B88362 /* MapViewController.swift */; };
 		044E6171237F3EB60061A071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6170237F3EB60061A071 /* AppDelegate.swift */; };
 		044E6173237F3EB60061A071 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6172237F3EB60061A071 /* ViewController.swift */; };
 		044E6176237F3EB60061A071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044E6174237F3EB60061A071 /* Main.storyboard */; };
@@ -33,6 +40,13 @@
 		042D1057237FFF5800B88362 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		042D10592380138C00B88362 /* EventsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsController.swift; sourceTree = "<group>"; };
 		042D105B23801AC200B88362 /* BorderRadiusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderRadiusButton.swift; sourceTree = "<group>"; };
+		042D105D2380430F00B88362 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		042D105F23806AFA00B88362 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		042D106123806E3400B88362 /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		042D10632380807F00B88362 /* ArtWorkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtWorkView.swift; sourceTree = "<group>"; };
+		042D10652380809D00B88362 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		042D10662380809D00B88362 /* AirportLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportLocation.swift; sourceTree = "<group>"; };
+		042D10692380812400B88362 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		044E616D237F3EB60061A071 /* TrackIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044E6170237F3EB60061A071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044E6172237F3EB60061A071 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,8 +77,11 @@
 		042D1051237F543D00B88362 /* Modeles */ = {
 			isa = PBXGroup;
 			children = (
+				042D10662380809D00B88362 /* AirportLocation.swift */,
+				042D10652380809D00B88362 /* Artwork.swift */,
 				042D1052237F545700B88362 /* Luggage.swift */,
 				042D1057237FFF5800B88362 /* Event.swift */,
+				042D105D2380430F00B88362 /* Customer.swift */,
 			);
 			path = Modeles;
 			sourceTree = "<group>";
@@ -72,8 +89,10 @@
 		042D1054237F60C700B88362 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				042D10632380807F00B88362 /* ArtWorkView.swift */,
 				042D1055237F60DF00B88362 /* BorderRadiusView.swift */,
 				042D105B23801AC200B88362 /* BorderRadiusButton.swift */,
+				042D105F23806AFA00B88362 /* QRScannerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,10 +136,12 @@
 		044E6185237F435F0061A071 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				042D10692380812400B88362 /* MapViewController.swift */,
 				044E6172237F3EB60061A071 /* ViewController.swift */,
 				044E6189237F47A40061A071 /* TrackingController.swift */,
 				042D104E237F522300B88362 /* LuggagesController.swift */,
 				042D10592380138C00B88362 /* EventsController.swift */,
+				042D106123806E3400B88362 /* QRScannerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -273,15 +294,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042D10682380809D00B88362 /* AirportLocation.swift in Sources */,
 				042D1056237F60DF00B88362 /* BorderRadiusView.swift in Sources */,
+				042D10642380807F00B88362 /* ArtWorkView.swift in Sources */,
 				044E618A237F47A40061A071 /* TrackingController.swift in Sources */,
 				044E6179237F3EB60061A071 /* TrackIT.xcdatamodeld in Sources */,
 				042D104F237F522300B88362 /* LuggagesController.swift in Sources */,
+				042D106023806AFA00B88362 /* QRScannerView.swift in Sources */,
+				042D106A2380812400B88362 /* MapViewController.swift in Sources */,
+				042D106223806E3400B88362 /* QRScannerViewController.swift in Sources */,
 				042D1058237FFF5800B88362 /* Event.swift in Sources */,
+				042D10672380809D00B88362 /* Artwork.swift in Sources */,
 				042D105C23801AC200B88362 /* BorderRadiusButton.swift in Sources */,
 				042D105A2380138C00B88362 /* EventsController.swift in Sources */,
 				044E618D237F4B9F0061A071 /* BaseURL.swift in Sources */,
 				042D1053237F545700B88362 /* Luggage.swift in Sources */,
+				042D105E2380430F00B88362 /* Customer.swift in Sources */,
 				044E6173237F3EB60061A071 /* ViewController.swift in Sources */,
 				044E6188237F46D70061A071 /* API.swift in Sources */,
 				044E6171237F3EB60061A071 /* AppDelegate.swift in Sources */,

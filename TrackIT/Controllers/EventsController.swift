@@ -39,6 +39,10 @@ class EventsController: UIViewController, UITableViewDelegate, UITableViewDataSo
         self.luggageIDLabel.text = "Luggage ID: #\(self.adjustBaggageID(date: self.baggageID))"
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     @IBAction func backButtonClicked(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
@@ -107,5 +111,22 @@ class EventsController: UIViewController, UITableViewDelegate, UITableViewDataSo
         }
     }
     
-
+    func generateLocationsNames()-> [String] {
+        var locationsNames: [String] = []
+        var lastName = ""
+        for event in (EventsJSON?.events)! {
+            if ( event.airport != lastName ) {
+                locationsNames.append(event.airport)
+            }
+            lastName = event.airport
+        }
+        return locationsNames
+    }
+    @IBAction func trackOnMapsButtonClick(_ sender: Any) {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let MapViewController = storyBoard.instantiateViewController(withIdentifier: "MapViewController") as! MapViewController
+        MapViewController.locationNames = generateLocationsNames()
+        self.navigationController?.pushViewController(MapViewController, animated: true)
+    }
+    
 }

@@ -14,14 +14,23 @@ class TrackingController: UIViewController {
     var customerID: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     
     @IBAction func TrackingButtonClick(_ sender: Any) {
         self.customerID = customerIDTextField.text!
         self.ChangeScreen()
     }
+    
+    @IBAction func QRCodeButtonClick(_ sender: Any) {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let QRScannerViewController = storyBoard.instantiateViewController(withIdentifier: "QRScannerViewController") as! QRScannerViewController
+        self.navigationController?.pushViewController(QRScannerViewController, animated: true)
+    }
+    
     
     func ChangeScreen() {
         let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)

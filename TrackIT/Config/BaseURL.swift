@@ -9,3 +9,4 @@
 import Foundation
 
 let BASE_URL = "https://junction.dev.qoco.fi/api/"
+
