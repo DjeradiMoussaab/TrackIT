@@ -10,10 +10,17 @@ import UIKit
 
 class TrackingController: UIViewController {
 
+    @IBOutlet weak var trackingButton: UIButton!
+    @IBOutlet weak var QRcodeButton: UIButton!
     @IBOutlet weak var customerIDTextField: UITextField!
     var customerID: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
+        customerIDTextField.layer.cornerRadius = 8.0
+        customerIDTextField.clipsToBounds = true
+        QRcodeButton.layer.cornerRadius = 8.0
+        trackingButton.layer.cornerRadius = 8.0
+
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {

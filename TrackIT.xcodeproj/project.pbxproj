@@ -29,6 +29,7 @@
 		044E6188237F46D70061A071 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6187237F46D70061A071 /* API.swift */; };
 		044E618A237F47A40061A071 /* TrackingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6189237F47A40061A071 /* TrackingController.swift */; };
 		044E618D237F4B9F0061A071 /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E618C237F4B9F0061A071 /* BaseURL.swift */; };
+		0481D2472380C1BC00588066 /* VerificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481D2462380C1BC00588066 /* VerificationController.swift */; };
 		FC8FE35EB0A15E512877F133 /* Pods_TrackIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04184349A582D9BACF36740A /* Pods_TrackIT.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		044E6187237F46D70061A071 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		044E6189237F47A40061A071 /* TrackingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingController.swift; sourceTree = "<group>"; };
 		044E618C237F4B9F0061A071 /* BaseURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		0481D2462380C1BC00588066 /* VerificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationController.swift; sourceTree = "<group>"; };
 		0EFA55BBF612B069EBCD4580 /* Pods-TrackIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackIT.release.xcconfig"; path = "Target Support Files/Pods-TrackIT/Pods-TrackIT.release.xcconfig"; sourceTree = "<group>"; };
 		77EBFF771023DD90DED0D4B6 /* Pods-TrackIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackIT.debug.xcconfig"; path = "Target Support Files/Pods-TrackIT/Pods-TrackIT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +144,7 @@
 				042D104E237F522300B88362 /* LuggagesController.swift */,
 				042D10592380138C00B88362 /* EventsController.swift */,
 				042D106123806E3400B88362 /* QRScannerViewController.swift */,
+				0481D2462380C1BC00588066 /* VerificationController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			files = (
 				042D10682380809D00B88362 /* AirportLocation.swift in Sources */,
 				042D1056237F60DF00B88362 /* BorderRadiusView.swift in Sources */,
+				0481D2472380C1BC00588066 /* VerificationController.swift in Sources */,
 				042D10642380807F00B88362 /* ArtWorkView.swift in Sources */,
 				044E618A237F47A40061A071 /* TrackingController.swift in Sources */,
 				044E6179237F3EB60061A071 /* TrackIT.xcdatamodeld in Sources */,
@@ -389,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -444,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -467,7 +471,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TrackIT2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrackITE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,7 +491,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TrackIT2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrackITE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

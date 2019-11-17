@@ -77,8 +77,6 @@ extension QRScannerViewController: QRScannerViewDelegate {
         self.qrData = QRData(codeString: str)
         print(qrData?.codeString! ?? "")
     }
-    
-    
-    
+
 }
 

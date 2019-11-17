@@ -6,6 +6,7 @@ target 'TrackIT' do
   use_frameworks!
   pod 'IQKeyboardManager'
   pod 'SwiftyJSON','4.2'
+  pod 'ProgressStepView', '1.0.0'
 
   # Pods for TrackIT
 

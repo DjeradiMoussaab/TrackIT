@@ -1,20 +1,24 @@
 PODS:
   - IQKeyboardManager (6.3.0)
+  - ProgressStepView (1.0.0)
   - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
   - IQKeyboardManager
+  - ProgressStepView (= 1.0.0)
   - SwiftyJSON (= 4.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - IQKeyboardManager
+    - ProgressStepView
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   IQKeyboardManager: 2ca9d64893247556f53523dcd8d78641f0ba7c23
+  ProgressStepView: e2643bba614acd1c13a2e07ec8ee2fe1b7d9e816
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 04072ae25a1f673b4179f915c34e455a7de6594c
+PODFILE CHECKSUM: 2522f3efd9f4b4c0c78bf3bf7e0bd282f4748125
 
 COCOAPODS: 1.7.3
